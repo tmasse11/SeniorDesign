@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+
+
+import wx
+#Create an application object named app. 
+
+app = wx.App()
+
+#creates a frame object within the application. 
+#frame = wx.Frame(None, -1 , 'User Interface Test')
+frame = wx.Frame(None, style=wx.MAXIMIZE_BOX | wx.RESIZE_BORDER)
+
+frame.Show()
+
+app.MainLoop()

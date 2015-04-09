@@ -1,0 +1,8 @@
+import numpy as np
+import pylab as py
+
+X =[1,2,3]
+Y = [1,4,9]
+
+py.plot(X,Y)
+py.show()
